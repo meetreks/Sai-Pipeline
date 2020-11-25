@@ -1,9 +1,12 @@
 pipeline {
     agent any
+    triggers {
+        githubPush()
+    }
     stages {
         stage('Pull Git Trigger') {
             steps {
-                git poll: true, url: 'https://github.com/meetreks/Java-DevOps.git'
+                git 'https://github.com/meetreks/Java-DevOps.git'
             }
         }
         stage('Maven-Clean') {
