@@ -15,6 +15,26 @@ pipeline {
 
             }
         }
+pipeline {
+    agent any
+    triggers {
+        githubPush()
+    }
+    stages {
+        stage('Pull Git Trigger') {
+            steps {
+                git 'https://github.com/meetreks/Java-DevOps.git'
+            }
+        }
+        stage('Maven-Clean') {
+            steps {
+                bat "mvn -Dmaven.test.failure.ignore=true clean package"
+            }
+        }
+
+
+    }
+}
 
 pipeline {
     agent any
