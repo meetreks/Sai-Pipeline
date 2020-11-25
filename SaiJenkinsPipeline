@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Pull Git Trigger') {
             steps {
-                git 'https://github.com/meetreks/Java-DevOps.git'
+                git poll: true, url: 'https://github.com/meetreks/Java-DevOps.git'
             }
         }
         stage('Maven-Clean') {
