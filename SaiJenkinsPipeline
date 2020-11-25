@@ -1,35 +1,17 @@
 pipeline {
     agent any
     stages {
-        stage('One') {
+        stage('Pull Git Trigger') {
             steps {
-                echo 'Om Sai Ram'
+                git 'https://github.com/meetreks/Java-DevOps.git'
             }
         }
-        stage('Two') {
+        stage('Maven-Clean') {
             steps {
-                input('Do you want to proceed?')
+                bat "mvn -Dmaven.test.failure.ignore=true clean package"
             }
         }
-        stage('Three') {
-            when {
-                not {
-                    branch "master"
-                }
-            }
-            steps {
-                echo "Hello"
-            }
-        }
-        stage('Four') {
-            parallel {
-                stage('Unit Test') {
-                    steps {
-                        echo "Running the unit test..."
-                    }
-                }
 
-            }
-        }
+
     }
 }

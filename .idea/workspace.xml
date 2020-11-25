@@ -23,10 +23,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Groovy" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Sai-DevOps-Pipelines" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
@@ -71,10 +77,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1606252339235" />
+    <state x="420" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606336813870">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="420" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1606336813870" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1606253472214">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606253472214" />
     <state x="507" y="265" key="Github.CreateGistDialog" timestamp="1606252736457">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="507" y="265" key="Github.CreateGistDialog/0.0.1366.728@0.0.1366.728" timestamp="1606252736457" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1606252910818">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606252910818" />
     <state x="65" y="0" key="new project wizard" timestamp="1606252394046">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -1,0 +1,53 @@
+pipeline {
+    agent any
+    stages {
+        stage('Pull Git Trigger') {
+            steps {
+                git 'https://github.com/meetreks/Java-DevOps.git'
+            }
+        }
+        stage('Maven-Clean') {
+            steps {
+                bat "mvn -Dmaven.test.failure.ignore=true clean package"
+            }
+        }
+
+
+            }
+        }
+
+pipeline {
+    agent any
+    stages {
+        stage('One') {
+            steps {
+                echo 'Om Sai Ram'
+            }
+        }
+        stage('Two') {
+            steps {
+                input('Do you want to proceed?')
+            }
+        }
+        stage('Three') {
+            when {
+                not {
+                    branch "master"
+                }
+            }
+            steps {
+                echo "Hello"
+            }
+        }
+        stage('Four') {
+            parallel {
+                stage('Unit Test') {
+                    steps {
+                        echo "Running the unit test..."
+                    }
+                }
+
+            }
+        }
+    }
+}
