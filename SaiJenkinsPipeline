@@ -1,3 +1,6 @@
+// This example is the complete example where I have created a webhook, pulled changes from source code
+// and ran a maven compile and scanned the code for security and published it in JFrog
+// THis is the full blown pipeline for the same.
 pipeline {
     agent any
     triggers {
