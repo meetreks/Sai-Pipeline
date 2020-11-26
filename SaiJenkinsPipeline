@@ -35,7 +35,9 @@ pipeline {
         }
         stage('JFrog-Setup') {
             steps {
-                archiveArtifacts 'target/*.jar'
+                rtPublishBuildInfo (
+                        serverId: "artifactory"
+                )
             }
         }
     }
