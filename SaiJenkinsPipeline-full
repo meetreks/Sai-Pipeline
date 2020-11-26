@@ -31,7 +31,24 @@ pipeline {
                 bat "mvn -Dmaven.test.failure.ignore=true clean package"
             }
         }
+        stage('Sonarqube') {
+            environment {
+                scannerHome = tool 'SonarQubeScanner'
+            }
+            steps {
+                withSonarQubeEnv('sonarqube') {
+                    bat """
+                    ${scannerHome}/bin/sonar-scanner \
+                    -Dsonar.projectKey=myfirstproject \
+                    -Dsonar.projectName=myfirstproject \
+                    -Dsonar.projectVersion=1.0.0-alpha \
+                    -Dsonar.language=java  \
+                    -Dsonar.java.binaries=target/classes/
+                        """
+                }
 
+            }
+        }
 
     }
 }

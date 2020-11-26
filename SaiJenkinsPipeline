@@ -33,5 +33,10 @@ pipeline {
 
             }
         }
+        stage('JFrog-Setup') {
+            steps {
+                archiveArtifacts 'target/*.jar'
+            }
+        }
     }
 }
