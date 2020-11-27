@@ -19,6 +19,9 @@ pipeline {
         }
 
         stage('Sonarqube') {
+            when {
+                branch 'dev'
+            }
             environment {
                 scannerHome = tool 'SonarQubeScanner'
             }
@@ -37,6 +40,9 @@ pipeline {
             }
         }
         stage('JFrog-Setup') {
+            when {
+                branch 'master'
+            }
             steps {
                 rtPublishBuildInfo (
                         serverId: "artifactory"
