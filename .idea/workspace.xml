@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d5f1470-550f-4d98-a7a2-03717551ed17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="9d5f1470-550f-4d98-a7a2-03717551ed17" name="Default Changelist" comment="Om Sai Ram">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SaiJenkinsPipeline" beforeDir="false" afterPath="$PROJECT_DIR$/SaiJenkinsPipeline" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SaiJenkinsPipeline-full" beforeDir="false" afterPath="$PROJECT_DIR$/SaiJenkinsPipeline-full" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +99,14 @@
       <option name="presentableId" value="Default" />
       <updated>1606252319771</updated>
     </task>
+    <task id="LOCAL-00001" summary="Om Sai Ram">
+      <created>1606433359859</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606433359859</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,6 +119,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Om Sai Ram" />
+    <option name="LAST_COMMIT_MESSAGE" value="Om Sai Ram" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1606252339235">
@@ -132,6 +145,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606252910818" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1606433369817">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606433369817" />
     <state x="65" y="0" key="new project wizard" timestamp="1606252394046">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
